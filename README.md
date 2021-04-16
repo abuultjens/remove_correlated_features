@@ -1,5 +1,5 @@
 # remove_correlated_features
-Removes features that have either R2 of 1 or -1. Will retain one feature from correlated groups to make matrix non-redundant. It will only calculate correlation scores for features with varying values and will ignore invariant features.
+Removes features that have either R2 of 1 or -1. Will retain one feature from correlated groups to make the feature matrix non-redundant. It will only calculate correlation scores for features with varying values and will ignore invariant features.
 
     $ python rm_cor.py [INFILE.csv] [OUTFILE.csv]
 
